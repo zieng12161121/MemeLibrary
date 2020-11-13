@@ -1,0 +1,305 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    background:#EDF2C5;
+    height: 100%;
+    width: 100%;
+    /*padding: 0px 160px;*/
+    background-image: url('/jpg/bg3.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.title{
+    width: 100%;
+    font-size: 36px;
+    font-family: Impact;
+    color: #ffffff;
+    font-weight: bold;
+    -webkit-text-stroke: 3px black;
+    text-align: center;
+    background-color: #83de87;
+    opacity: 60%;
+    text-shadow: 4px 4px 6px #83de10;
+    letter-spacing: 7.5px;
+    cursor: pointer ;
+}
+
+.back-to-top {
+
+    display: inline; /* 默認是隱藏的，這樣在第一屏才不顯示 */
+    
+    position: fixed; /* 位置是固定的 */
+    
+    bottom: 20px; /* 顯示在頁面底部 */
+    
+    right: 25px;  /*顯示在頁面的右邊 */
+    
+    z-index: 99; /* 確保不被其他功能覆蓋 */
+    
+    border: 1px solid #5cb85c; /* 顯示邊框 */
+    
+    outline: none; /* 不顯示外框 */
+    
+    background-color: #fff; /* 設置背景背景顏色 */
+    
+    color: #5cb85c; /* 設置文本顏色 */
+    
+    cursor: pointer; /* 滑鼠移到按鈕上顯示手型 */
+    
+    padding: 10px 15px 15px 15px; /* 增加一些內邊距 */
+    
+    border-radius: 20px; /* 增加圓角 */
+    
+    }
+    
+    .back-to-top:hover {
+    
+    background-color: #73a1e6; /* 滑鼠移上去時，反轉顏色 */
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transition:0.8s;
+
+    }
+
+a {
+    text-decoration:none;
+}
+
+h1 {
+    font-family: Impact;
+    font-weight: bold;
+    -webkit-text-stroke: 3px black;
+    color: white;
+    letter-spacing: 7.5px;
+
+}
+
+.title2{
+    text-align: center;
+    font-size: 48px;
+}
+
+.sectitle{
+    background: #8faee7;
+    width: 100%;
+    height: 55px;
+    margin-top: 1px;
+    
+}
+
+.menu1{
+    display: flex;
+    opacity: 60%;
+}
+.menu0_text{
+    font-size: 36px;
+    font-family: Alegreya;
+    font-weight: 900;
+    color: #000000;
+    list-style: none;
+    margin: 1px 10px;
+ }
+
+.menu1_text{
+    font-size: 28px;
+    font-family: Alegreya;
+    font-weight: 200;
+    color: #000000;
+    list-style: none;
+    margin: 8px 50px;
+ }
+
+ .menu1_text:hover{
+    color: #ffffff ;
+    cursor: pointer;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    transform: scale(1.6);
+    -ms-transform: scale(1.6);
+    -webkit-transform: scale(1.6);
+   
+}
+
+.main{
+    margin: 0 auto;
+    width: 1500px;
+}
+.mainpage,.hot{
+    
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    margin-top: 10px;
+    
+ }
+
+ .borderr {
+    position: relative;
+   
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    border: 1px solid black;
+    margin: 5px 50px 3% 50px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+
+
+.borderr:hover .image1, .borderr:focus .image1 {
+    transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    
+}
+
+.image1 {
+    position: absolute;
+    transition: transform 1s ease;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.image2{
+    background-color: #ffffff;
+    width: 500px;
+    height: 400px;
+    opacity: 0;
+}
+
+.image2:hover{
+    background-color: #ffffff;
+    width: 500px;
+    height: 400px;
+    opacity: 0.8;
+    transition: 0.5s;
+    
+    -webkit-transition:0.5s;
+}
+.imgtext0{
+    
+   
+    position: absolute;
+    font-size: 24px;
+    top: 5%;
+    left: 35%;
+    margin: 0 ;
+    font-family: Impact, "微軟正黑體", 'Arial Narrow Bold', sans-serif;
+    font-weight:bolder;
+    color: #000000;
+    
+}
+.imgtext1{
+    
+    position: absolute;
+    font-size: 18px;
+    top: 20%;
+    margin: 0 ;
+    font-family: Impact, "微軟正黑體", 'Arial Narrow Bold', sans-serif;
+    font-weight:bolder;
+    color: #000000;
+    padding: 0px 10px;
+    
+}
+.image3
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 10px;
+    right: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.image3:hover{
+    cursor: pointer;
+    
+}
+
+.image4
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 14px; 
+    left: 13px;
+}
+
+.image4:hover{
+    cursor: pointer;
+}
+
+.border {
+    position: relative;
+    
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 5px 87.5px 7% 87.5px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.img1 {
+    position: absolute;
+    transition: transform 1s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.border:hover .img1, .border:focus .img1 {
+    transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    
+}
+.img2{
+    background-color: #ffffff;
+    width: 500px;
+    height: 400px;
+    opacity: 0;
+}
+
+.img2:hover{
+    background-color: #ffffff;
+    width: 500px;
+    height: 400px;
+    opacity: 0.35;
+    transition: 0.5s;
+}
+.imgtext{
+    
+    position: absolute;
+    font-size: 24px;
+    top: 40%;
+    margin: 0 ;
+    left: 30%;
+    font-weight: bold;
+    color: #000000;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+footer{
+    margin-top: 30px;
+
+    height: 50px;
+    background-color: #9fc8f8;
+
+}
+
+.t{
+    font-size: 24px;
+    text-align: center;
+   
+}
+ 
